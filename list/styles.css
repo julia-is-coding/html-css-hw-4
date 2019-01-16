@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color:  rgb(44, 44, 44);
+}
+
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+div {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+nav>a {
+    margin-top: 40px;
+    /* margin-right: 100px; */
+    /* margin-bottom: 60px; */
+    /* margin-left: 20px;
+    width: 200px; */
+}
+
+div>ul {
+    /* margin-top: 40px; */
+    /* margin-right: 100px; */
+    margin-bottom: 60px;
+    /* margin-left: 20px;
+    width: 200px; */
+} 
+
+nav>a, div>ul {
+    margin-right: 100px;
+    margin-left: 20px;
+    width: 200px;
+} 
+
+.header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: 200;
+    border-bottom: 1px solid gray; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul .has-no-border-bottom {
+    border-bottom: none; 
+}
+
+.has-no-underline {
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+a {
+    color: black;
+}
+
+/* the last two rules are soooo optional. :-)
+Wanted to be as much similar as possible to the link in readme-file  */
+
+.container {
+    background-color:  rgb(44, 44, 44);
+    width: 100%;
+    height: 100%;
+}
+
+.container>.content {
+    width: 27,5%;
+    margin-top: 15%;
+    margin-left: 33%;
+    padding-bottom: 0;
+}
